@@ -1,0 +1,54 @@
+DOCX CONTENT:
+--- word/document.xml ---
+Vegirati Anusri Devi Hyderabad ,   Telangana   500047 + 91  73686929032       anusridevi25 @gmail.com         linkedin.com/in/anusria83              github.com/anusri222 Projects Automobile Spare Parts Inventory Analysis       |     Github                                                                                          Mar 2025   -   Apr   2 02 5                                                                       -    Analy z ed dealer-wise automobile spare parts inventory dataset to identify stock distribution patterns and inventory objectives   -    Utilized Python tools including Pandas, NumPy, Matplotlib, and Seaborn for data cleaning, preprocessing, and visualization   -      Identified high and low stock items, detected missing values, and generated insights improving inventory management decisions.   -     Tech  used :   Python, NumPy, Pandas, Matplotlib, Seaborn, Exploratory Data Analysis (EDA),    Lifestyle and Health Risk Prediction Dashboard                                                                                                                Developed a lifestyle and health risk prediction dashboard to  analyze  habits and identify potential risks Integrated data cleaning, processing, and visualization using Python, SQL, and Power BI analytics tool s Improved data-driven decision making by delivering interactive dashboards with clear insights on lifestyle risks Tech used:  Power BI, Python, Data Visualization, Data Cleaning, Data Analysis    Training   Data Structures and Algorithms using C++ |  LPU                                                                                        June 2025  –  July   2025             -      Implemented core data structures such as arrays, linked lists, stacks, and queues for efficient data management           -       Designed and applied tree-based structures like binary trees and binary search trees (BST) for optimized searching and sorting           -      Developed and  analyzed  algorithms including sorting (merge sort, quick sort) and searching (binary search) techniques           -       Focused on time and space complexity optimization to improve performance and scalability           -       Built modular and efficient programs using C++ principles for solving real-world computational problems   Certificat es  / Certifications                 -    NumPy Programming Mastery: Learn Python for Data Analysis /  U d emy  /    Link                                                                                   Sep     2025           -  Hands-On Python Data Science / Udemy /  Link                                                                                                                                Sep  2025          -   Data Analytics Essentials: Analyze, Visualize, Interpret   /  Udemy  /  Link                                                                                              Sep    2025                                                                                     Skills     Languages :  Python ,  C ++,   Java,   SQL Technologies/Frameworks :   Jupyter  Notebook, Git, GitHub, Docker, Hadoop Domain  Skills :   Data Analysis, Machine Learning, Statistical Analysis, Data Cleaning, Feature Engineering, Exploratory Data Analysis (EDA), Data Visualization, Problem Solving Education Lovely   Professional   University   Phagwara, Punjab Bachelor of Technology - Computer Science and Engineering   —   CGPA:   6.02  Aug  2023 - Present Sasi Educational Institutions                                                                                                                       Velivennu ,  A.P 12 th    —   Percentage:   9 2 . 1 A pr   2021 –  Mar  2023 Sasi Educational Institutio ns                                                                                                             Velivennu ,  A.P   10th   —   Percentage: 99.83                  A pr   202 0  –  Mar  202 1
+
+==================================================
+
+PPTX CONTENT:
+--- ppt/slides/slide1.xml ---
+Showcasing Skills, Projects & Growth PORTFOLIO CREATION
+
+--- ppt/slides/slide10.xml ---
+3 1 5 2 6 8 9 7 4 Project Showcase your major academic and personal projects. Include key headings for clarity. Title & description Technologies used Role, challenges, outcomes GitHub/demo links
+
+--- ppt/slides/slide11.xml ---
+8 3 1 4 2 6 5 7 9 Certificates Content: Course name & issuing body Relevant certifications (Data Science, Cybersecurity, Cloud) Completion dates
+
+--- ppt/slides/slide12.xml ---
+9 3 1 4 2 6 5 7 8 Achievements Achievements reflect excellence and leadership. Content: Coding competitions, scholarships, and leadership roles Dates & brief descriptions
+
+--- ppt/slides/slide13.xml ---
+Internships & Work Experience Showcase your experience Content: Company name, role, duration Key responsibilities & outcomes 10
+
+--- ppt/slides/slide14.xml ---
+Competitive Programming / Hackathons Add these with pics (if possible for extra edge) Content: Platforms: LeetCode, HackerRank, Kaggle Rankings & event participation 11
+
+--- ppt/slides/slide15.xml ---
+Research & Publications Highlight your expertise with intensive knowledge  Content: Titles, abstracts, co‑authors Publication links 12
+
+--- ppt/slides/slide16.xml ---
+13 Contact Section Easy access to your contact info ensures recruiter’s response Content: Email, LinkedIn, GitHub, portfolio website
+
+--- ppt/slides/slide17.xml ---
+14 Portfolio Hosting & Visibility A digitally accessible portfolio increases visibility. Platforms: GitHub Pages, Notion, personal website Link portfolio in resume & LinkedIn
+
+--- ppt/slides/slide18.xml ---
+Portfolio: For placements & career success Resume + Proof of Work Initiative, skills & growth Reflect: Essential: Key Takeaways
+
+--- ppt/slides/slide2.xml ---
+1 4 2 5 3 7 6 Curated collection of work, skills & achievements Dynamic extension of the resume Demonstrates initiative & problem‑solving ability What is a Portfolio? Virtual show of your competencies 8 9
+
+--- ppt/slides/slide4.xml ---
+4 1 5 2 7 6 Importance of Portfolio Building Builds credibility with recruiters Highlights real‑world application of skills Differentiates you from peers with similar resumes Reflects continuous learning & growth 8 9 2 3
+
+--- ppt/slides/slide5.xml ---
+3 4 1 5 2 7 6 8 9 About Me Brief personal intro Academic background & career goals Unique qualities or interests
+
+--- ppt/slides/slide7.xml ---
+1 5 2 7 6 8 9 3 Resume Ensure you add your resume Contact details & career objective Education, skills, internships Tailored for tech industry roles 4
+
+--- ppt/slides/slide8.xml ---
+5 3 1 4 2 7 6 8 9 Education Current B.Tech program details Specialization & CGPA/percentage Highlight relevant coursework & projects Include details of previous education 
+
+--- ppt/slides/slide9.xml ---
+6 3 1 4 2 7 5 8 9 Skills Group skills as per category Programming languages (Python, Java, C++) Tools & frameworks (Git, Docker, React, TensorFlow) Soft skills (communication, teamwork) Highlight the relevant skills

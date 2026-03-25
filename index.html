@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegirati Anusri Devi | Portfolio</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Vegirati Anusri Devi - Computer Science Student, Data Analyst, and Aspiring Data Scientist.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- DevIcons for Brand Logos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.15) 0%, transparent 50%);
+        }
+        .text-gradient {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="selection:bg-primary-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 font-bold text-2xl tracking-tighter">
+                    <span class="text-gradient">AD.</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="hover:text-primary-400 transition-colors px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#about" class="hover:text-primary-400 transition-colors px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#skills" class="hover:text-primary-400 transition-colors px-3 py-2 text-sm font-medium">Skills</a>
+                        <a href="#projects" class="hover:text-primary-400 transition-colors px-3 py-2 text-sm font-medium">Projects</a>
+                        <a href="#education" class="hover:text-primary-400 transition-colors px-3 py-2 text-sm font-medium">Education</a>
+                        <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-full text-sm font-medium transition-all transform hover:scale-105">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative">
+        <div class="hero-gradient absolute top-0 left-0 w-full h-[800px] pointer-events-none"></div>
+
+        <!-- Hero Section -->
+        <section id="home" class="relative pt-40 pb-32 lg:pt-56 lg:pb-48 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-16">
+                    <div class="flex-1 text-center lg:text-left" data-aos="fade-right">
+                        <div class="mb-6 inline-flex items-center gap-2 px-4 py-2 glass rounded-full text-primary-400 text-sm font-medium">
+                            <span class="flex h-2 w-2 rounded-full bg-primary-500 animate-pulse"></span>
+                            Available for internship Opportunities
+                        </div>
+                        <h2 class="text-primary-400 font-medium mb-4 tracking-widest uppercase text-sm">Hello, I'm</h2>
+                        <h1 class="text-6xl lg:text-8xl font-bold mb-8 tracking-tighter leading-tight">
+                            <span class="block">Vegirati</span>
+                            <span class="text-gradient">Anusri Devi</span>
+                        </h1>
+                        <p class="text-xl lg:text-2xl text-slate-400 mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                            Passionate B.Tech Student at LPU. Specializing in <span class="text-primary-300 font-medium">Data Analysis</span>, Machine Learning, and building scalable intelligent systems.
+                        </p>
+                        <div class="flex flex-wrap justify-center lg:justify-start gap-6">
+                            <a href="#projects" class="px-10 py-4 bg-primary-600 hover:bg-primary-700 rounded-2xl font-bold transition-all shadow-xl shadow-primary-900/40 transform hover:-translate-y-1">View Projects</a>
+                            <a href="Specialized CV_Template (1).docx" download class="px-10 py-4 glass rounded-2xl font-bold hover:bg-white/5 transition-all flex items-center gap-3 border border-white/10 group">
+                                <i data-lucide="download" class="w-5 h-5 group-hover:translate-y-1 transition-transform"></i> 
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 flex justify-center lg:justify-end" data-aos="fade-left">
+                        <div class="relative group">
+                            <div class="absolute -inset-1 bg-gradient-to-r from-primary-600 to-indigo-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                            <div class="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-slate-800 shadow-2xl">
+                                <img src="pic.jpeg" alt="Vegirati Anusri Devi" class="w-full h-full object-cover transform transition duration-500 group-hover:scale-110">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 bg-slate-900/50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">About Me</h2>
+                    <div class="h-1.5 w-20 bg-primary-600 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div data-aos="fade-right">
+                        <h3 class="text-2xl font-bold text-slate-100 mb-6 italic underline decoration-primary-600 decoration-4 underline-offset-8">Career Objective</h3>
+                        <p class="text-lg text-slate-300 leading-relaxed mb-6">
+                            Aspiring Data Analyst with a solid foundation in Python, SQL, and Machine Learning. I aim to leverage my analytical skills to solve complex problems and drive data-driven decision-making in a dynamic tech environment.
+                        </p>
+                        <p class="text-lg text-slate-300 leading-relaxed mb-8 italic">
+                            Currently pursuing B.Tech in CSE at Lovely Professional University, I am committed to continuous learning and excellence in the field of intelligent systems and big data.
+                        </p>
+                        <div class="grid grid-cols-1 gap-8 mb-8">
+                            <div class="glass p-6 rounded-2xl border-l-4 border-primary-500 max-w-xs">
+                                <h4 class="text-primary-400 font-bold text-2xl mb-1">6.02</h4>
+                                <p class="text-sm text-slate-400 uppercase tracking-wider font-semibold">Current CGPA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4" data-aos="fade-left">
+                        <div class="glass p-6 rounded-2xl flex items-start gap-4">
+                            <div class="p-3 bg-primary-900/30 rounded-lg">
+                                <i data-lucide="map-pin" class="w-6 h-6 text-primary-400"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-slate-100 italic">Location</h5>
+                                <p class="text-slate-400 text-sm">Hyderabad, Telangana</p>
+                            </div>
+                        </div>
+                        <div class="glass p-6 rounded-2xl flex items-start gap-4">
+                            <div class="p-3 bg-primary-900/30 rounded-lg">
+                                <i data-lucide="mail" class="w-6 h-6 text-primary-400"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-slate-100 italic">Email</h5>
+                                <p class="text-slate-400 text-sm">anusridevi25@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="glass p-6 rounded-2xl flex items-start gap-4">
+                            <div class="p-3 bg-primary-900/30 rounded-lg">
+                                <i data-lucide="github" class="w-6 h-6 text-primary-400"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-slate-100 italic">GitHub</h5>
+                                <p class="text-slate-400 text-sm">anusri222</p>
+                            </div>
+                        </div>
+                        <div class="glass p-6 rounded-2xl flex items-start gap-4">
+                            <div class="p-3 bg-primary-900/30 rounded-lg">
+                                <i data-lucide="graduation-cap" class="w-6 h-6 text-primary-400"></i>
+                            </div>
+                            <div>
+                                <h5 class="font-semibold text-slate-100 italic">Education</h5>
+                                <p class="text-slate-400 text-sm">B.Tech CSE @ LPU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">Skills & Expertise</h2>
+                    <div class="h-1.5 w-20 bg-primary-600 mx-auto rounded-full"></div>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Languages -->
+                    <div class="glass p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="code-2" class="w-6 h-6 text-primary-400"></i>
+                            <h3 class="text-xl font-bold">Languages</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-slate-100">
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-python-plain colored"></i> Python
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-cplusplus-plain colored font-bold"></i> C++
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-java-plain colored"></i> Java
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-mysql-plain colored"></i> SQL
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Technologies -->
+                    <div class="glass p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="layers" class="w-6 h-6 text-primary-400"></i>
+                            <h3 class="text-xl font-bold">Tech & Frameworks</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-slate-100">
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-jupyter-plain colored"></i> Jupyter
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-git-plain colored"></i> Git
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-docker-plain colored"></i> Docker
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-hadoop-plain colored"></i> Hadoop
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-pandas-plain colored"></i> Pandas
+                            </span>
+                            <span class="flex items-center gap-2 px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">
+                                <i class="devicon-tensorflow-original colored"></i> TensorFlow
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Domain -->
+                    <div class="glass p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center gap-3 mb-6">
+                            <i data-lucide="database" class="w-6 h-6 text-primary-400"></i>
+                            <h3 class="text-xl font-bold">Domain Skills</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">Data Analysis</span>
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">Machine Learning</span>
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">Statistical Analysis</span>
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">Data Visualization</span>
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">EDA</span>
+                            <span class="px-3 py-1 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-sm transition-colors cursor-default">Feature Engineering</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-slate-900/50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">Featured Projects</h2>
+                    <p class="text-slate-400">Demonstrating proof of work and initiative</p>
+                    <div class="h-1.5 w-20 bg-primary-600 mx-auto rounded-full mt-4"></div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="glass rounded-3xl overflow-hidden group hover:bg-white/5 transition-all duration-500" data-aos="zoom-in-up">
+                        <div class="h-64 overflow-hidden relative">
+                            <img src="automobile_inventory.png" alt="Automobile Inventory Analysis" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] to-transparent opacity-60"></div>
+                        </div>
+                        <div class="p-10">
+                            <div class="flex justify-between items-start mb-6">
+                                <h3 class="text-3xl font-bold text-slate-100 group-hover:text-primary-400 transition-colors tracking-tight">Automobile Spare Parts Analysis</h3>
+                                <div class="flex gap-3">
+                                    <a href="https://github.com/anusri222/Dealer-Level-Part-Stock-Data-Visualization" target="_blank" class="p-3 bg-white/5 hover:bg-primary-600 rounded-xl transition-all text-slate-300 hover:text-white transform hover:scale-110">
+                                        <i class="devicon-github-original text-xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-400 mb-8 leading-relaxed italic text-lg">
+                                Analyzed dealer-wise auto spare parts inventory to identify stock distribution patterns and inventory objectives.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-8">
+                                <span class="flex items-center gap-1.5 px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    <i class="devicon-python-plain colored text-sm"></i> Python
+                                </span>
+                                <span class="flex items-center gap-1.5 px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    <i class="devicon-pandas-plain colored text-sm"></i> Pandas
+                                </span>
+                                <span class="px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider">EDA</span>
+                            </div>
+                            <div class="space-y-4 border-t border-white/5 pt-6">
+                                <div class="flex items-start gap-3 text-slate-400">
+                                    <i data-lucide="shield-check" class="w-5 h-5 text-primary-500 mt-0.5 shrink-0"></i>
+                                    <span>Improved stock management efficiency by identifying low-velocity items.</span>
+                                </div>
+                                <div class="flex items-start gap-3 text-slate-400">
+                                    <i data-lucide="shield-check" class="w-5 h-5 text-primary-500 mt-0.5 shrink-0"></i>
+                                    <span>Visualized patterns using Seaborn & Matplotlib for stakeholder reports.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass rounded-3xl overflow-hidden group hover:bg-white/5 transition-all duration-500" data-aos="zoom-in-up" data-aos-delay="200">
+                        <div class="h-64 overflow-hidden relative">
+                            <img src="health_dashboard.png" alt="Health Risk Prediction" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] to-transparent opacity-60"></div>
+                        </div>
+                        <div class="p-10">
+                            <div class="flex justify-between items-start mb-6">
+                                <h3 class="text-3xl font-bold text-slate-100 group-hover:text-primary-400 transition-colors tracking-tight">Health Risk Prediction Dashboard</h3>
+                                <div class="flex gap-3">
+                                    <a href="https://github.com/anusri222" target="_blank" class="p-3 bg-white/5 hover:bg-primary-600 rounded-xl transition-all text-slate-300 hover:text-white transform hover:scale-110">
+                                        <i data-lucide="activity" class="w-6 h-6"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-400 mb-8 leading-relaxed italic text-lg">
+                                Developed an interactive dashboard to predict lifestyle health risks based on habits and medical history.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-8">
+                                <span class="flex items-center gap-1.5 px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    <i class="devicon-python-plain colored text-sm"></i> Python
+                                </span>
+                                <span class="flex items-center gap-1.5 px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    <i class="devicon-mysql-plain colored text-sm"></i> SQL
+                                </span>
+                                <span class="px-4 py-1.5 bg-primary-900/20 text-primary-400 border border-primary-900/30 rounded-full text-xs font-bold uppercase tracking-wider font-bold">Power BI</span>
+                            </div>
+                            <div class="space-y-4 border-t border-white/5 pt-6">
+                                <div class="flex items-start gap-3 text-slate-400">
+                                    <i data-lucide="shield-check" class="w-5 h-5 text-primary-500 mt-0.5 shrink-0"></i>
+                                    <span>Integrated data from various sources using SQL for cleansing.</span>
+                                </div>
+                                <div class="flex items-start gap-3 text-slate-400">
+                                    <i data-lucide="shield-check" class="w-5 h-5 text-primary-500 mt-0.5 shrink-0"></i>
+                                    <span>Interactive visualizations improved data accessibility for users.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications -->
+        <section id="education" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 gap-16">
+                    <!-- Education -->
+                    <div data-aos="fade-right">
+                        <h2 class="text-2xl font-bold mb-8 flex items-center gap-4 italic">
+                            <i data-lucide="graduation-cap" class="text-primary-400"></i> Education
+                        </h2>
+                        <div class="space-y-8 border-l-2 border-primary-900/50 pl-8 ml-3">
+                            <div class="relative">
+                                <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-primary-600 shadow-[0_0_10px_rgba(14,165,233,0.5)]"></div>
+                                <h4 class="text-slate-100 font-bold text-lg italic">Lovely Professional University</h4>
+                                <p class="text-primary-400 text-sm font-medium mb-2">Bachelor of Technology - CSE | 2023 - Present</p>
+                                <p class="text-slate-400 text-sm leading-relaxed italic">Current CGPA: 6.02. Focusing on core Computer Science and specializing in Engineering.</p>
+                            </div>
+                            <div class="relative">
+                                <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-slate-700"></div>
+                                <h4 class="text-slate-100 font-bold text-lg italic">Sasi Educational Institutions</h4>
+                                <p class="text-primary-400 text-sm font-medium mb-2">12th Grade (Intermediate) | 2021 - 2023</p>
+                                <p class="text-slate-400 text-sm italic">Percentage: 92.1%</p>
+                            </div>
+                            <div class="relative">
+                                <div class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-slate-700"></div>
+                                <h4 class="text-slate-100 font-bold text-lg italic">Sasi Educational Institutions</h4>
+                                <p class="text-primary-400 text-sm font-medium mb-2">10th Grade (Schooling) | 2020 - 2021</p>
+                                <p class="text-slate-400 text-sm italic">Percentage: 99.83%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div data-aos="fade-left">
+                        <h2 class="text-2xl font-bold mb-8 flex items-center gap-4 italic">
+                            <i data-lucide="award" class="text-primary-400"></i> Certifications
+                        </h2>
+                        <div class="space-y-4">
+                            <a href="https://www.udemy.com/certificate/UC-fa006db5-fa6c-4356-91a5-9e9c56d899c4/" target="_blank" class="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary-600 transition-all">
+                                <div>
+                                    <h4 class="text-slate-100 font-semibold italic">NumPy Programming Mastery</h4>
+                                    <p class="text-slate-400 text-xs mt-1">Udemy | Sep 2025</p>
+                                </div>
+                                <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-primary-400 transition-colors"></i>
+                            </a>
+                            <a href="https://www.udemy.com/certificate/UC-a5fda6f3-35a3-473f-8c7a-ce0cd83db40f/" target="_blank" class="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary-600 transition-all">
+                                <div>
+                                    <h4 class="text-slate-100 font-semibold italic">Hands-On Python Data Science</h4>
+                                    <p class="text-slate-400 text-xs mt-1">Udemy | Sep 2025</p>
+                                </div>
+                                <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-primary-400 transition-colors"></i>
+                            </a>
+                            <a href="https://www.udemy.com/certificate/UC-aca118dd-ad7e-4b89-a415-e3b8290f8623/" target="_blank" class="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary-600 transition-all">
+                                <div>
+                                    <h4 class="text-slate-100 font-semibold italic">Data Analytics Essentials</h4>
+                                    <p class="text-slate-400 text-xs mt-1">Udemy | Sep 2025</p>
+                                </div>
+                                <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-primary-400 transition-colors"></i>
+                            </a>
+                            <div class="glass p-5 rounded-2xl flex items-center justify-between group hover:border-primary-600 transition-all cursor-default">
+                                <div>
+                                    <h4 class="text-slate-100 font-semibold italic">DSA using C++</h4>
+                                    <p class="text-slate-400 text-xs mt-1">LPU | July 2025</p>
+                                </div>
+                                <i data-lucide="external-link" class="w-4 h-4 text-slate-500 group-hover:text-primary-400 transition-colors"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contact" class="py-20 bg-primary-600/10 border-t border-primary-900/20">
+            <div class="max-w-4xl mx-auto px-4 text-center" data-aos="zoom-in">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-6 italic">Let's Connect & Build Success</h2>
+                <p class="text-lg text-slate-400 mb-10 leading-relaxed italic">
+                    I'm currently seeking opportunities where I can apply my data analytics and problem-solving skills to real-world challenges.
+                </p>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="mailto:anusridevi25@gmail.com" class="flex items-center gap-3 glass px-6 py-4 rounded-2xl hover:bg-primary-600 transition-all group">
+                        <i data-lucide="mail" class="group-hover:scale-110 transition-transform"></i>
+                        <span>anusridevi25@gmail.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/anusria83" target="_blank" class="flex items-center gap-3 glass px-6 py-4 rounded-2xl hover:bg-primary-600 transition-all group">
+                        <i class="devicon-linkedin-plain colored text-2xl group-hover:scale-110 transition-transform"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/anusri222" target="_blank" class="flex items-center gap-3 glass px-6 py-4 rounded-2xl hover:bg-primary-600 transition-all group">
+                        <i class="devicon-github-original colored text-2xl group-hover:scale-110 transition-transform"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-10 border-t border-white/5 text-center text-slate-500 text-sm">
+        <p>&copy; 2025 Vegirati Anusri Devi. Built for success & innovation.</p>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            easing: 'ease-out-quad',
+        });
+
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
